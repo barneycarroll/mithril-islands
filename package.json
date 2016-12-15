@@ -1,0 +1,30 @@
+{
+  "name": "mithril-islands",
+  "version": "0.1.0",
+  "description": "Mount Mithril components whose redraw is controlled explicitly",
+  "main": "index",
+  "module": "index.mjs",
+  "jsnext:main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/mithril-islands.git"
+  },
+  "keywords": [
+    "mithril",
+    "granular",
+    "redraw",
+    "plugin"
+  ],
+  "author": "Barney Carroll <barney.carroll@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/mithril-islands/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/mithril-islands#readme",
+  "dependencies": {
+    "mithril": "0.2.2-rc.1 - 1.0.0-rc.6 || 1.0.x"
+  }
+}
