@@ -34,9 +34,9 @@ var island = new function(){
     throw new Error( "The `vnode` supplied to `island.redraw` is not part of any active virtual DOM structure mounted via `island.mount`. https://github.com/barneycarroll/mithril-islands/README.md#island-redraw" )
   }
 
-  if( module && module.exports )
-    module.exports = API
+  if( typeof module !== 'undefined' )
+    module[ 'exports' ] = API
 
-  else if( window )
+  else
     window.island = API
 }()
